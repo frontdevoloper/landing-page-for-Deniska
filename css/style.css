@@ -1,0 +1,269 @@
+/*Подключаем шрифт*/
+@import url('fonts.css');
+
+/*Подключаем обнуляющий стиль*/
+@import url('Nullifying.css');
+
+body {
+   font-family: gilroy;
+   font-weight: 500;
+   font-size: 18px;
+   color: #070707;   
+}
+p {
+   line-height: 22px;
+}
+
+img {
+   max-width: 100%;
+}
+
+.wrapper {
+   min-height: 100%;
+	overflow: hidden;
+}
+.first-page {
+   padding: 34px 0px;
+}
+
+.container {
+  max-width: 940px;
+   margin: 0 auto;
+}
+
+@media (max-width:992px){
+   .container {
+      max-width: 750px;      
+   }
+}
+
+@media (max-width:767px){
+   .container {
+      max-width: 750px;
+      padding: 0px 10px;
+   }   
+}
+
+.header__menu {  
+   display: flex;
+   justify-content: space-between;
+   margin:0px 0px 32px 0px;
+}
+.header__link{
+   color: #828282;
+   font-weight: 700;
+   transition: 0.5s ease;
+   margin-bottom: 40px;
+}
+
+.header__link:hover {
+   color:#070707;
+   
+}
+
+.line {   
+   width: 100%;
+   background-color: #828282;
+   height: 1px;
+   display: block;
+   margin:0px 0px 40px 0px;  
+}
+
+.header_body {
+   padding-top: 45px;
+   margin-bottom: 70px;
+}
+.header__text {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 50px;
+}
+.header__logo {
+   font-size: 48px;
+   font-weight: 700;
+}
+
+.header__lang {
+   display: inline-flex;      
+   align-items: flex-end;
+   transform: rotate(-90deg);  
+}
+
+.header__column2 {
+   align-self: flex-end;
+}
+.ru {
+   color: #828282;
+}
+
+.header__line-leng {   
+   width: 2px;
+   height: 20px;
+   background-color: black;
+   display: flex;
+   margin:0px 5px 0px 5px;
+} 
+
+
+.eng {
+   color: #828282;
+}
+
+.about {
+   padding: 120px 0px;
+   background: #F6F6F6;   
+}
+
+.about__content {
+   max-width: 490px;
+   text-align: center;
+   margin: 0 auto;
+}
+.about__title {
+   margin-bottom: 18px;
+}
+.title {
+   font-size: 34px;
+   font-weight: 700;
+   text-align: center;
+}
+
+.about__text {   
+   margin-bottom: 40px;   
+}
+
+.about__text:last-child {
+   margin: 0;
+}
+
+.skils_Denis {
+   padding: 91px 0px 110px 0px;
+}
+
+.skils__title {   
+   margin: 70px;
+}
+
+.skils__subtitle {
+   text-align: center;
+   margin: 80px;
+}
+.skils_Denis__skils {
+   display: flex;
+   justify-content: space-between;
+}
+.skils_Denis__skill {   
+   padding-top: 110px;
+   max-width: 167px;
+   display: flex;
+   flex-direction: column;
+}
+.skil_1 {
+   background: url('..//img/ps_icon.png') no-repeat center top;
+}
+
+.skil_2 {
+   background: url('..//img/ai_icon.png') no-repeat center top;
+}
+
+.skil_3 {
+   background: url('..//img/ae_icon.png') no-repeat center top;
+}
+
+.skil_4 {
+   background: url('..//img/figma-icon.png') no-repeat center top;
+}
+
+.skils_Denis__text {
+   text-align: center;
+   margin-bottom: 40px;
+   flex: 1 1 auto;
+}
+
+.skils_Denis__rating {
+   display: flex;
+   justify-content: space-between;
+}
+
+.portfolio {
+   background: #F6F6F6; 
+   padding: 100px 0px;
+}
+
+.portfolio__title {
+   margin-bottom: 47px;
+}
+
+.portfolio__item {
+   text-align: center;
+   margin:0px 0px 100px 0px;
+}
+
+.portfolio__item:last-child {
+   margin:0px 0px 0px 0px;
+}
+
+.portfolio__img {
+   margin-bottom: 45px;
+}
+.portfolio__link{
+   color: #070707;
+   transition: all 0.5s ease;
+}
+
+.portfolio__link:hover {
+   text-decoration: underline #070707;
+}
+
+.footer {
+   padding: 120px 0;
+}
+.contacts {   
+   display: flex;
+   flex-direction: column;   
+   text-align: center;
+   max-width: 345px;
+   margin: 0 auto;
+   height: 385px;
+}
+.contacts__ofer {
+   flex: 1 1 auto;
+}
+.contacts__title {
+   margin:0px 0px 20px 0px;
+}
+.contacts__text {
+   margin:0px 0px 30px 0px;
+   line-height: 116%;   
+}
+
+.btn {
+   color: #fff;
+   display: inline-flex;
+   padding: 13px 0;
+   width: 180px;
+   background-color: #000;
+   border-radius: 100px;   
+   justify-content: center;   
+}
+
+.contacts__btn {
+   transition: all  0.5s ease;
+}
+
+.contacts__btn:hover {
+   background-color: rgb(36, 36, 36)
+}
+
+.contacts__icons {
+   display: flex;
+   justify-content: space-between;
+}
+
+.soc__text {
+   margin-top: 40px;
+   font-size: 14px;
+   color: #828282;
+   line-height: 87.5%;
+}
+
